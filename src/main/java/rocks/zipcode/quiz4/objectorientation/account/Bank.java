@@ -9,6 +9,7 @@ public class Bank {
     }
 
     public void addBankAccount(BankAccount bankAccount) {
+    bankAccount = new BankAccount();
     }
 
     public Boolean containsBankAccount(BankAccount bankAccount) {
